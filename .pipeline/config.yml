@@ -1,4 +1,10 @@
 general:
 steps:
   mtaBuild:
-    buildTarget: 'XSA'
+    buildTarget: 'CF'
+  cloudFoundryDeploy:
+    cloudFoundry:
+      apiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
+      org: '1f9186fbtrial'
+      space: 'dev'
+      credentialsId: 'CFCREDENTIALID'
